@@ -21,4 +21,5 @@ async def ping(ctx):
     '''Responds with pong'''
     await ctx.send('pong')
 
+print('Starting bot...')
 bot.run(TOKEN)
